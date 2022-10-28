@@ -10,12 +10,12 @@ const About = () => {
       <div className='h-full mx-auto py-8 md:py-16 text-center max-w-[1240px]'>
         <h1 className='  font-bold text-white '>About</h1>
         <p className='m-20 text-left text-white text-lg tracking-wider'>
-          " I'm self-taught and enthusiastic front-end developer. I like using
-          new technologies and tools to combine them into functional and
+          Im self-taught and enthusiastic front-end developer. I like using new
+          technologies and tools to combine them into functional and
           user-friendly designs. My goal is to learn and grow to use my skills
           in web development and delivering completion of projects. <br /> If
-          you're hiring for a junior front-end developer or wanna website built,
-          lets have a chat! "
+          youre hiring for a junior front-end developer or wanna website built,
+          lets have a chat!
         </p>
         <div className='flex justify-center'>
           <a href='#contact'>
