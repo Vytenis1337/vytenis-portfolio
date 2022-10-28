@@ -39,7 +39,7 @@ const Projects = () => {
                   className={`flex items-center justify-center ${style}`}
                   target='_blank'
                   rel='noreferrer'
-                  href='https://github.com/Vytenis1337'
+                  href='https://github.com/Vytenis1337/vytenis-portfolio'
                 >
                   <button className='w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105'>
                     Code

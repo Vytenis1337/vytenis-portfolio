@@ -9,7 +9,7 @@ const Contact = () => {
         </h1>
 
         <div className='flex flex-col md:flex-row gap-4 lg:gap-8 mt-4'>
-          <div className='w-full md:w-1/2 h-full rounded-xl lg:mt-20 p-4'>
+          <div className='w-full md:w-1/2 h-full rounded-xl lg:mt-10 p-4'>
             <div className='grid mx-auto w-1/6'>
               {contactIcons.map((contactIcon) => (
                 <a
@@ -41,18 +41,9 @@ const Contact = () => {
                       name
                     </label>
                     <input
+                      required
                       type='text'
                       name='name'
-                      className='border-2 rounded-lg p-3 flex focus:outline-none focus:border-yellow-400'
-                    />
-                  </div>
-                  <div className='flex flex-col'>
-                    <label className='capitalize text-sm py-2 text-yellow-500 font-light'>
-                      phone
-                    </label>
-                    <input
-                      type='text'
-                      name='phone'
                       className='border-2 rounded-lg p-3 flex focus:outline-none focus:border-yellow-400'
                     />
                   </div>
@@ -62,6 +53,7 @@ const Contact = () => {
                       email
                     </label>
                     <input
+                      required
                       type='email'
                       name='email'
                       className='border-2 rounded-lg p-3 flex focus:outline-none focus:border-yellow-400'
@@ -72,6 +64,7 @@ const Contact = () => {
                       message
                     </label>
                     <textarea
+                      required
                       name='message'
                       rows='10'
                       className='border-2 rounded-lg p-3 flex focus:outline-none focus:border-yellow-400'

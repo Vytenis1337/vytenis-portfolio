@@ -20,6 +20,6 @@ export const contactIcons = [
   {
     id: 4,
     child: <FaGithub size={60} />,
-    href: 'https://github.com/Vytenis1337',
+    href: 'https://github.com/Vytenis1337/vytenis-portfolio',
   },
 ];
