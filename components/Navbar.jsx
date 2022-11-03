@@ -41,13 +41,13 @@ export const Navbar = () => {
         </Link>
         <div>
           <ul className='hidden md:flex'>
-            {navLinks.map((navLink) => (
+            {navLinks.map(({ id, href, scroll, link }) => (
               <li
-                key={navLink.id}
+                key={id}
                 className='ml-10 text-2xl uppercase hover:scale-105 hover:border-b hover:border-[#fcd21d] '
               >
-                <Link href={navLink.href} scroll={navLink.scroll}>
-                  {navLink.link}
+                <Link href={href} scroll={scroll}>
+                  {link}
                 </Link>
               </li>
             ))}
@@ -84,14 +84,14 @@ export const Navbar = () => {
           </div>
           <div className='py-8 flex flex-col'>
             <ul className='uppercase'>
-              {navLinks.map((navLink) => (
+              {navLinks.map(({ id, href, scroll, link }) => (
                 <li
-                  key={navLink.id}
+                  key={id}
                   onClick={() => setNav(false)}
                   className='py-4 text-3xl text-white'
                 >
-                  <Link href={navLink.href} scroll={navLink.scroll}>
-                    {navLink.link}
+                  <Link href={href} scroll={scroll}>
+                    {link}
                   </Link>
                 </li>
               ))}
@@ -101,16 +101,16 @@ export const Navbar = () => {
                 Contact Me
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                {socialLinks.map((socialLink) => (
+                {socialLinks.map(({ id, href, download, child }) => (
                   <a
-                    key={socialLink.id}
-                    href={socialLink.href}
+                    key={id}
+                    href={href}
                     target='_blank'
                     rel='noreferrer'
-                    download={socialLink.download}
+                    download={download}
                   >
                     <div className='rounded bg-yellow-500 text-black  p-5 mx-2 cursor-pointer hover:scale-105 ease-in duration-300'>
-                      {socialLink.child}
+                      {child}
                     </div>
                   </a>
                 ))}

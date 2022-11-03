@@ -11,17 +11,17 @@ const Contact = () => {
         <div className='flex flex-col md:flex-row gap-4 lg:gap-8 mt-4'>
           <div className='w-full md:w-1/2 h-full rounded-xl lg:mt-10 p-4'>
             <div className='grid mx-auto w-1/6'>
-              {contactIcons.map((contactIcon) => (
+              {contactIcons.map(({ id, href, download, child, text }) => (
                 <a
-                  key={contactIcon.id}
-                  href={contactIcon.href}
+                  key={id}
+                  href={href}
                   target='_blank'
                   rel='noreferrer'
-                  download={contactIcon.download}
+                  download={download}
                 >
                   <div className='flex flex-col items-center justify-center hover:scale-105 duration-200 p-3 lg:p-6 cursor-pointer text-yellow-400'>
-                    {contactIcon.child}
-                    {contactIcon.text}
+                    {child}
+                    {text}
                   </div>
                 </a>
               ))}
