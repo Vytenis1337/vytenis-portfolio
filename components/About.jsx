@@ -23,8 +23,8 @@ const About = () => {
             </button>
           </a>
           <a
-            href='/Vytenis_Kondrackis_CV_2022.pdf'
-            download='Vytenis_Kondrackis_CV_2022'
+            href='/Vytenis_Kondrackis_CV.pdf'
+            download='Vytenis_Kondrackis_CV'
             className='absolute right-2 lg:right-40 lg:mr-20'
           >
             <button className='hover:scale-110 bg-white text-black lg:p-2 font-bold'>

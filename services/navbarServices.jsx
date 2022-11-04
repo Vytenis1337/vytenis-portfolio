@@ -33,7 +33,7 @@ export const socialLinks = [
   {
     id: 4,
     child: <BsFillPersonLinesFill />,
-    href: '/Vytenis_Kondrackis_CV_2022.pdf',
+    href: '/Vytenis_Kondrackis_CV.pdf',
     download: true,
     text: 'Resume',
   },
