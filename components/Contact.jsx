@@ -2,8 +2,11 @@ import { contactIcons } from '../services/contactServices';
 
 const Contact = () => {
   return (
-    <div id='contact' className='w-full'>
-      <div className='bg-gradient-to-b from-black to-gray-800 mx-auto pt-8 lg:pt-16 text-center '>
+    <div
+      id='contact'
+      className='w-full lg:h-screen bg-gradient-to-b from-gray-800 to-black'
+    >
+      <div className='mx-auto pt-8 lg:pt-20 text-center '>
         <h1 className='text-6xl md:text-7xl tracking-wider capitalize font-bold text-white'>
           contact
         </h1>
@@ -19,7 +22,7 @@ const Contact = () => {
                   rel='noreferrer'
                   download={download}
                 >
-                  <div className='flex flex-col items-center justify-center hover:scale-105 duration-200 p-3 lg:p-6 cursor-pointer text-yellow-400'>
+                  <div className='flex flex-col items-center justify-center hover:scale-105 duration-200 p-3 lg:p-6 cursor-pointer text-yellow-400 hover:text-white'>
                     {child}
                     {text}
                   </div>
@@ -37,7 +40,7 @@ const Contact = () => {
               >
                 <div className='grid-cols-1 md:grid-cols-2 gap-4 w-full py-1'>
                   <div className='flex flex-col'>
-                    <label className='capitalize text-sm py-2 text-yellow-500 font-light'>
+                    <label className='capitalize text-lg py-2 text-yellow-500 font-light'>
                       name
                     </label>
                     <input
@@ -49,7 +52,7 @@ const Contact = () => {
                   </div>
 
                   <div className='flex flex-col col-span-2'>
-                    <label className='capitalize text-sm py-2 text-yellow-500 font-light'>
+                    <label className='capitalize text-lg py-2 text-yellow-500 font-light'>
                       email
                     </label>
                     <input
@@ -60,7 +63,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className='flex flex-col col-span-2'>
-                    <label className='capitalize text-sm py-2 text-yellow-500 font-light'>
+                    <label className='capitalize text-lg py-2 text-yellow-500 font-light'>
                       message
                     </label>
                     <textarea
@@ -73,7 +76,7 @@ const Contact = () => {
                 </div>
 
                 <div className='flex items-center justify-center'>
-                  <button className='my-8  text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:scale-105 bg-gray-800 hover:text-yellow-400 hover:border-yellow-400 duration-200'>
+                  <button className='my-8  text-white px-6 py-3 lg:px-8 lg:py-5 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:scale-105 bg-black hover:text-yellow-400 hover:border-yellow-400 duration-200'>
                     send message
                   </button>
                 </div>

@@ -6,13 +6,12 @@ const Projects = () => {
   return (
     <div
       id='projects'
-      className='w-full h-full bg-gradient-to-b from-gray-800 to-black lg: py-20'
+      className='w-full h-full bg-gradient-to-b from-black to-gray-800 lg: py-20'
     >
-      <div className=' mx-auto px-6 py-16 md:text-left '>
-        <h1 className='text-5xl text-white md:text-7xl tracking-wider capitalize font-bold ml-20'>
+      <div className=' mx-auto px-6 py-16 text-center '>
+        <h1 className='text-5xl text-white md:text-7xl tracking-wider capitalize font-bold mb-20 pb-10 underline'>
           projects
         </h1>
-        <div className='border-b-8 border-white border-solid mb-20 w-2/6 md:w-1/6 pb-10 ml-20'></div>
 
         <div className='max-w-7xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
           {projects.map(({ id, title, imageSrc, url, style, text }) => (
@@ -41,7 +40,7 @@ const Projects = () => {
                   rel='noreferrer'
                   href='https://github.com/Vytenis1337/vytenis-portfolio'
                 >
-                  <button className='w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105'>
+                  <button className='w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105 text-black font-bold'>
                     Code
                   </button>
                 </a>

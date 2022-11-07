@@ -16,7 +16,7 @@ export const Navbar = () => {
 
   useEffect(() => {
     const handleShadow = () => {
-      if (window.scrollY >= 180) {
+      if (window.scrollY >= 500) {
         setShadow(true);
       } else {
         setShadow(false);
@@ -29,8 +29,8 @@ export const Navbar = () => {
     <div
       className={
         shadow
-          ? 'fixed w-full bg-black text-yellow-500 h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100] bg-black text-white'
+          ? 'fixed w-full bg-black text-yellow-500 h-20 z-[100] ease-in-out duration-300'
+          : 'fixed w-full h-20 z-[100] bg-transparent text-white'
       }
     >
       <div className=' font-bold flex justify-between items-center w-full h-full px-2 2xl:px-16 '>

@@ -33,10 +33,10 @@ const Skills = () => {
   return (
     <div
       id='skills'
-      className='w-full h-full bg-gradient-to-b from-black to-gray-800 lg: py-20 '
+      className='w-full h-full bg-gradient-to-b from-gray-800 to-black lg: py-20 '
     >
       <div className='h-full mx-auto px-8 md:py-16 text-center max-w-[1240px]'>
-        <h1 className=' text-5xl font-bold text-white '>Skills</h1>
+        <h1 className=' text-5xl md:text-6xl font-bold text-white '>Skills</h1>
 
         <div
           ref={ref}
@@ -47,7 +47,7 @@ const Skills = () => {
               animate={animation}
               key={id}
               whileHover={{ scale: 1.2 }}
-              className='flex flex-col lg:flex-row gap-2 lg:gap-0 items-center justify-center p-1 rounded-xl hover:border-none ease-in duration-300 border-2 border-[#fcd21d] bg-white'
+              className='flex flex-col lg:flex-row gap-2 lg:gap-0 items-center justify-center p-1 rounded-xl hover:border-none ease-in duration-300 border-2 border-yellow-400 bg-white'
             >
               <Image src={src} width='45px' height='45px' alt={title} />
               <h3 className='font-bold'>{title}</h3>

@@ -9,14 +9,14 @@ export const SideLinks = () => {
         {sideLinks.map(({ id, href, download, child, text }) => (
           <li
             key={id}
-            className='flex justify-between items-center w-40 h-16 px-4 bg-black ml-[-100px] hover:ml-[-10px] hover: rounded-md duration-300'
+            className='group flex justify-between items-center w-40 h-20 px-4 bg-black ml-[-100px] hover:ml-[-10px] hover: rounded-md duration-300'
           >
             <a
               href={href}
               target='_blank'
               rel='noreferrer'
               download={download}
-              className='flex justify-between items-center w-full text-white'
+              className='flex justify-between items-center w-full text-white group-hover:text-yellow-400'
             >
               {text}
               {child}
