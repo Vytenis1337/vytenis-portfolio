@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
 
                 <div className='flex items-center justify-center'>
-                  <button className='my-8  text-white px-6 py-3 lg:px-8 lg:py-5 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:scale-105 bg-black hover:text-yellow-400 hover:border-yellow-400 duration-200'>
+                  <button className='my-8  text-yellow-400 border-yellow-400 px-6 py-3 lg:px-8 lg:py-5 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:scale-105 bg-black hover:text-white hover:border-white duration-200'>
                     send message
                   </button>
                 </div>

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+
 import { projects } from '../services/projectServices';
 
 const Projects = () => {
@@ -16,11 +16,8 @@ const Projects = () => {
         <div className='max-w-7xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
           {projects.map(({ id, title, imageSrc, url, style, text }) => (
             <div key={id}>
-              <motion.div
-                animate={{ rotate: 9 }}
-                className=' group shadow-md shadow-gray-600 bg-white overflow-hidden rounded-md'
-              >
-                <h2 className='text-center text-2xl capitalize my-4 font-bold duration-200 group-hover:underline underline-offset-4'>
+              <div className=' group shadow-md shadow-gray-600 bg-transparent overflow-hidden rounded-md border-white'>
+                <h2 className='text-center text-2xl text-white capitalize my-4 font-bold duration-200 group-hover:underline underline-offset-4'>
                   {title}
                 </h2>
                 <div className='rounded-md duration-200 group-hover:scale-110 flex'>
@@ -28,7 +25,7 @@ const Projects = () => {
                 </div>
 
                 <div className='flex items-center justify-center capitalize font-bold my-3'>
-                  <div className='font-light text-base'>
+                  <div className='font-light text-base text-white'>
                     Technologies used for this project:<br></br>
                     <p className='font-bold'>{text}</p>
                   </div>
@@ -40,11 +37,11 @@ const Projects = () => {
                   rel='noreferrer'
                   href='https://github.com/Vytenis1337/vytenis-portfolio'
                 >
-                  <button className='w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105 text-black font-bold'>
+                  <button className='w-1/2 px-6 py-2 m-2 duration-200 text-yellow-400 bg-transparent font-bold border-yellow-400 hover:scale-105 hover:text-white hover:border-white'>
                     Code
                   </button>
                 </a>
-              </motion.div>
+              </div>
             </div>
           ))}
         </div>

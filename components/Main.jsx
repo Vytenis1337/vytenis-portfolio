@@ -18,7 +18,7 @@ const Main = () => {
     >
       <div className='max-w-[1240px]   w-full h-full mx-auto p-2 flex justify-center items-center '>
         <div className='pt-20 md:pt-15'>
-          <h1 className='py-4 text-yellow-500 text-5xl md:text-7xl'>
+          <h1 className='py-4 text-white text-5xl md:text-7xl'>
             {main ? `I'm Vytenis` : 'Web Developer'}
           </h1>
 
@@ -31,7 +31,7 @@ const Main = () => {
                   : 'hover:scale-105 text-white'
               }
             >
-              <button className='border-white p-2 lg:p-4 bg-transparent font-bold text-lg hover:text-yellow-400'>
+              <button className='border-yellow-400 text-yellow-400 p-2 md:p-3 lg:p-4 bg-transparent font-bold text-lg hover:text-white hover:border-white'>
                 About Me
               </button>
             </a>
