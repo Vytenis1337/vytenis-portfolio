@@ -1,4 +1,4 @@
-import comingSoon from '../public/assets/projects/comingSoonPexel.jpg';
+import todolist from '../public/assets/projects/TodoProject.png';
 import fetchApi from '../public/assets/projects/FetchAPI_project.png';
 import portfolioProject from '../public/assets/projects/PortfolioProject.png';
 
@@ -22,11 +22,10 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'advanced calculator',
-    imageSrc: comingSoon,
-    // url: 'advanced-calculator',
-    style: 'hidden',
-    text: 'Javascript NextJs Redux Tailwind',
-    styleTwo: 'hidden',
+    title: 'todo list',
+    imageSrc: todolist,
+    github: 'https://github.com/Vytenis1337/todo-app',
+    live: 'https://todowhat.netlify.app/',
+    text: 'Javascript ReactJs CSS Firebase',
   },
 ];
