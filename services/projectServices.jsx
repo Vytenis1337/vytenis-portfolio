@@ -1,6 +1,6 @@
-import todolist from '../public/assets/projects/TodoProject.png';
-import fetchApi from '../public/assets/projects/FetchAPI_project.png';
-import portfolioProject from '../public/assets/projects/PortfolioProject.png';
+import todolist from '../public/assets/projects/TodosProject.png';
+import fetchApi from '../public/assets/projects/FetchProject.jpg';
+import portfolioProject from '../public/assets/projects/PortProject.png';
 
 export const projects = [
   {
