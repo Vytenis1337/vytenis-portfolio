@@ -1,10 +1,19 @@
 import todolist from '../public/assets/projects/TodosProject.png';
 import fetchApi from '../public/assets/projects/FetchProject.jpg';
 import portfolioProject from '../public/assets/projects/PortProject.png';
+import ecommerce from '../public/assets/projects/EcommerceProject.png';
 
 export const projects = [
   {
     id: 1,
+    title: 'ecommerce website',
+    imageSrc: ecommerce,
+    github: 'https://github.com/Vytenis1337/shop-app/tree/master',
+    text: ' Javascript ReactJs TypeScript CSS Framer-Motion Axios ContextAPI',
+    live: 'https://shop-app.netlify.app/',
+  },
+  {
+    id: 2,
     title: 'portfolio website',
     imageSrc: portfolioProject,
     github: 'https://github.com/Vytenis1337/vytenis-portfolio',
@@ -12,7 +21,7 @@ export const projects = [
     styleTwo: 'hidden',
   },
   {
-    id: 2,
+    id: 3,
     title: 'fetch API',
     imageSrc: fetchApi,
     github: 'https://github.com/Vytenis1337/fetch-api/tree/master',
@@ -21,7 +30,7 @@ export const projects = [
     text: ' Javascript ReactJs Tailwind Axios ContextAPI',
   },
   {
-    id: 3,
+    id: 4,
     title: 'todo list',
     imageSrc: todolist,
     github: 'https://github.com/Vytenis1337/todo-app',

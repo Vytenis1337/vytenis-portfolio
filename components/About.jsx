@@ -10,8 +10,8 @@ const About = () => {
         <h1 className=' text-5xl md:text-6xl font-bold text-white '>About</h1>
         <div className='my-20 mx-10 md:my-20 md:mx-20 text-left text-white text-lg lg:text-xl lg:tracking-wider'>
           <p>
-            I am self-taught and enthusiastic front-end web developer. I like
-            using new technologies and tools to combine them into functional and
+            I am enthusiastic front-end web developer. I like using new
+            technologies and tools to combine them into functional and
             user-friendly designs. My goal is to learn and grow to use my skills
             in web development and delivering completion of projects. <br />
             Front-end web development is really cool cause it combines
