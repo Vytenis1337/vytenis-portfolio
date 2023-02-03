@@ -2,16 +2,16 @@ import { contactIcons } from '../services/contactServices';
 
 const Contact = () => {
   return (
-    <div
-      id='contact'
-      className='w-full lg:h-screen bg-gradient-to-b from-gray-800 to-black'
-    >
+    <div id='contact' className='w-full lg:h-screen '>
       <div className='mx-auto pt-8 lg:pt-20 text-center '>
-        <h1 className='text-6xl md:text-7xl tracking-wider capitalize font-bold text-white'>
-          contact
+        <h1 className='font-mono text-6xl md:text-7xl tracking-wider capitalize font-bold text-white'>
+          contacts
         </h1>
 
-        <div className='flex flex-col md:flex-row gap-4 lg:gap-8 mt-4'>
+        <div
+          data-aos='zoom-in-down'
+          className='flex flex-col md:flex-row gap-4 lg:gap-8 mt-4'
+        >
           <div className='w-full md:w-1/2 h-full rounded-xl lg:mt-10 p-4'>
             <div className='grid mx-auto w-1/6'>
               {contactIcons.map(({ id, href, download, child, text }) => (

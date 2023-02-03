@@ -1,19 +1,18 @@
 import Image from 'next/image';
-
 import { projects } from '../services/projectServices';
 
 const Projects = () => {
   return (
-    <div
-      id='projects'
-      className='w-full h-full bg-gradient-to-b from-black to-gray-800 lg: py-20'
-    >
+    <div id='projects' className='w-full h-full  lg: py-20'>
       <div className=' mx-auto px-6 py-16 text-center '>
-        <h1 className='text-5xl text-white md:text-7xl tracking-wider capitalize font-bold mb-20 pb-10 underline'>
+        <h1 className='font-mono text-5xl text-white md:text-7xl tracking-wider capitalize font-bold mb-20 pb-10 underline'>
           projects
         </h1>
 
-        <div className='max-w-7xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
+        <div
+          data-aos='fade-right'
+          className='max-w-7xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-8'
+        >
           {projects.map(
             ({ id, title, imageSrc, github, live, style, styleTwo, text }) => (
               <div key={id}>
