@@ -3,10 +3,26 @@ import fetchApi from '../public/assets/projects/FetchProject.jpg';
 import portfolioProject from '../public/assets/projects/PortProject.png';
 import ecommerce from '../public/assets/projects/EcommerceProject.png';
 import usersList from '../public/assets/projects/UsersListProject.png';
+import mern from '../public/assets/projects/MernProject.png'
 
 export const projects = [
   {
+
+
+    
     id: 1,
+    title: 'MERN movie website',
+    imageSrc: mern,
+    github: ' https://github.com/Vytenis1337/themoviedb',
+    backEndGithub: 'https://github.com/Vytenis1337/themoviedb-backEnd',
+    text: ' Javascript ReactJs TypeScript CSS Framer-Motion Axios ContextAPI Express Mongoose Bcrypt Cors',
+    live: 'https://vytenis-themoviedb.netlify.app/',
+  },
+  {
+
+
+
+    id: 2,
     title: 'ecommerce website',
     imageSrc: ecommerce,
     github: 'https://github.com/Vytenis1337/shop-app/tree/master',
@@ -15,7 +31,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: 'users list',
     imageSrc: usersList,
     github: 'https://github.com/Vytenis1337/user-list/tree/master',
@@ -23,7 +39,7 @@ export const projects = [
     live: 'https://user-list-add-edit.netlify.app',
   },
   {
-    id: 3,
+    id: 4,
     title: 'portfolio website',
     imageSrc: portfolioProject,
     github: 'https://github.com/Vytenis1337/vytenis-portfolio',
@@ -31,7 +47,7 @@ export const projects = [
     styleTwo: 'hidden',
   },
   {
-    id: 4,
+    id: 5,
     title: 'fetch API',
     imageSrc: fetchApi,
     github: 'https://github.com/Vytenis1337/fetch-api/tree/master',
@@ -40,7 +56,7 @@ export const projects = [
     text: ' Javascript ReactJs Tailwind Axios ContextAPI',
   },
   {
-    id: 5,
+    id: 6,
     title: 'todo list',
     imageSrc: todolist,
     github: 'https://github.com/Vytenis1337/todo-app',

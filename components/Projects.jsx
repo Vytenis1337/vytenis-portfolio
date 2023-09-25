@@ -14,7 +14,7 @@ const Projects = () => {
           className='max-w-7xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-8'
         >
           {projects.map(
-            ({ id, title, imageSrc, github, live, style, styleTwo, text }) => (
+            ({ id, title, imageSrc, github, live, style, styleTwo, text, backEndGithub }) => (
               <div key={id}>
                 <div className=' group shadow-md shadow-gray-600 bg-transparent overflow-hidden rounded-md border-white'>
                   <h2 className='text-center text-2xl text-white capitalize my-4 font-bold duration-200 group-hover:underline underline-offset-4'>
@@ -41,6 +41,16 @@ const Projects = () => {
                         Code
                       </button>
                     </a>
+                    { backEndGithub ? (<a
+                      className={`flex items-center justify-center ${style}`}
+                      target='_blank'
+                      rel='noreferrer'
+                      href={backEndGithub}
+                    >
+                      <button className='w-1/2 px-6 py-2 m-2 duration-200 text-yellow-400 bg-transparent font-bold border-yellow-400 hover:scale-105 hover:text-white hover:border-white'>
+                        Back-End Code
+                      </button>
+                    </a>) : ''}
                     <a
                       className={`flex items-center justify-center ${styleTwo}`}
                       target='_blank'

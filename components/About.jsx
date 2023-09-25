@@ -27,12 +27,12 @@ const About = () => {
             can instantly see it on the screen! So far i have good knowledge of
             these technologies:{' '}
             <span className='text-yellow-400'>
-              JavaScript, HTML, CSS, ReactJs, TypeScript, Redux, TailWind, Sass,
-              GitHub, NodeJs.
+              JavaScript, HTML, CSS, ReactJs, NextJs, TypeScript, Redux, TailWind, Sass,
+              GitHub, NodeJs, MongoDB.
             </span>{' '}
             Also knowledge of:{' '}
             <span className='text-yellow-400'>
-              NextJs, MaterialUI, Bootstrap, PHP.
+              React Native, MaterialUI, Bootstrap, PHP.
             </span>
             I am also comfortable with{' '}
             <span className='text-blue-400'>Back-End</span> concepts. <br />

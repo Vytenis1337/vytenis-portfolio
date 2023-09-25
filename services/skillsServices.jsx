@@ -10,6 +10,8 @@ import redux from '../public/assets/skills/redux.png';
 import typescript from '../public/assets/skills/typescript.png';
 import git from '../public/assets/skills/git.png';
 import wordpress from '../public/assets/skills/wordpress.png';
+import reactnative from '../public/assets/skills/reactnative.png';
+import mongodb from '../public/assets/skills/mongodb.png';
 
 export const skills = [
   {
@@ -39,18 +41,24 @@ export const skills = [
   },
   {
     id: 6,
+    title: 'ReactNative',
+    src: reactnative,
+  },
+  {
+    id: 7,
     title: 'Typescript',
     src: typescript,
   },
 
   {
-    id: 7,
+    id: 8,
     title: 'Redux',
     src: redux,
   },
-  { id: 8, title: 'Tailwind', src: tailwind },
-  { id: 9, title: 'Sass', src: sass },
-  { id: 10, title: 'Git', src: git },
-  { id: 11, title: 'NodeJs', src: node },
-  { id: 12, title: 'Wordpress', src: wordpress },
+  { id: 9, title: 'Tailwind', src: tailwind },
+  { id: 10, title: 'Sass', src: sass },
+  { id: 11, title: 'Git', src: git },
+  { id: 12, title: 'NodeJs', src: node },
+  { id: 13, title: 'MongoDb', src: mongodb },
+  { id: 14, title: 'Wordpress', src: wordpress },
 ];

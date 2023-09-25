@@ -20,7 +20,7 @@ const Skills = () => {
             <div
               key={id}
               whileHover={{ scale: 1.1 }}
-              className='flex flex-col lg:flex-row  gap-2 lg:gap-0 items-center justify-center p-2 lg:p-3 hover:border-none ease-in duration-300 border-2  border-blue-400 bg-white'
+              className='flex flex-col  gap-2 lg:gap-0 items-center justify-center p-2 lg:p-3 hover:border-none ease-in duration-300 border-2  border-blue-400 bg-white'
             >
               <Image src={src} width='55px' height='55px' alt={title} />
               <h3 className='mx-1 font-bold text-black'>{title}</h3>
