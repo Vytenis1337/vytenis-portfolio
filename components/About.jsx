@@ -16,7 +16,8 @@ const About = () => {
         <div className='my-20 mx-10 md:my-20 md:mx-20 text-left text-white text-lg lg:text-xl lg:tracking-wider'>
           <p data-aos='zoom-in-up' className='font-serif'>
             I am enthusiastic{' '}
-            <span className='text-blue-400'>Front-End Web </span>developer. I
+            <span className='text-blue-400'>Front-End Web </span>developer. I am also comfortable with{' '}
+            <span className='text-blue-400'>Back-End</span> concepts. I
             like using new technologies and tools to combine them into
             functional and user-friendly designs. My goal is to learn and grow
             to use my skills in web development and delivering completion of
@@ -34,10 +35,9 @@ const About = () => {
             <span className='text-yellow-400'>
               React Native, MaterialUI, Bootstrap, PHP.
             </span>
-            I am also comfortable with{' '}
-            <span className='text-blue-400'>Back-End</span> concepts. <br />
             <br />
-            If you are hiring for a Junior or Entry level Front-End developer or
+            <br />
+            If You are hiring for a Junior or Entry level Front-End developer or
             wanna website built, lets connect and have a chat!
           </p>
         </div>
