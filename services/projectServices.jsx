@@ -5,8 +5,18 @@ import ecommerce from "../public/assets/projects/EcommerceProject.png";
 import usersList from "../public/assets/projects/UsersListProject.png";
 import mern from "../public/assets/projects/MernProject.png";
 import nextScrapper from "../public/assets/projects/nextScrapper.png";
+import pexelsScroll from "../public/assets/projects/pexelsScroll.png";
 
 export const projects = [
+  {
+    id: 8,
+    title: "Pexels infinite scroll",
+    imageSrc: pexelsScroll,
+    github: "https://github.com/Vytenis1337/Pexels-Infinite-Scroll",
+
+    text: " ReactJs TypeScript CSS ContextAPI Jest React-Testing-Library",
+    live: "https://vytenis-infinite-scroll.netlify.app/",
+  },
   {
     id: 7,
     title: "IMDB movie scrapper",
@@ -27,7 +37,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "ecommerce website",
+    title: "Ecommerce app",
     imageSrc: ecommerce,
     github: "https://github.com/Vytenis1337/shop-app/tree/master",
     text: " Javascript ReactJs TypeScript CSS Framer-Motion Axios ContextAPI",
@@ -36,7 +46,7 @@ export const projects = [
 
   {
     id: 3,
-    title: "users list",
+    title: "Users list",
     imageSrc: usersList,
     github: "https://github.com/Vytenis1337/user-list/tree/master",
     text: " Javascript ReactJs CSS Framer-Motion Axios ContextAPI",
@@ -44,7 +54,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "portfolio website",
+    title: "Portfolio website",
     imageSrc: portfolioProject,
     github: "https://github.com/Vytenis1337/vytenis-portfolio",
     text: " Javascript NextJs Tailwind Framer-Motion",
@@ -52,7 +62,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "fetch API",
+    title: "Fetch API",
     imageSrc: fetchApi,
     github: "https://github.com/Vytenis1337/fetch-api/tree/master",
     live: "https://vytenis-fetch-api.netlify.app/",
@@ -61,7 +71,7 @@ export const projects = [
   },
   {
     id: 6,
-    title: "todo list",
+    title: "Todo list",
     imageSrc: todolist,
     github: "https://github.com/Vytenis1337/todo-app",
     live: "https://todowhat.netlify.app/",
