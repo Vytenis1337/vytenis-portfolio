@@ -6,6 +6,7 @@ import usersList from "../public/assets/projects/UsersListProject.png";
 import mern from "../public/assets/projects/MernProject.png";
 import nextScrapper from "../public/assets/projects/nextScrapper.png";
 import pexelsScroll from "../public/assets/projects/pexelsScroll.png";
+import ratepunk from "../public/assets/projects/RatepunkPicture.png";
 
 export const projects = [
   {
@@ -16,6 +17,15 @@ export const projects = [
 
     text: " ReactJs TypeScript CSS ContextAPI Jest React-Testing-Library",
     live: "https://vytenis-infinite-scroll.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "Ratepunk clone",
+    imageSrc: ratepunk,
+    github: "https://github.com/Vytenis1337/ratepunk",
+
+    text: " NextJs TypeScript CSS JSONbin",
+    live: "https://ratepunk-orpin.vercel.app/",
   },
   {
     id: 7,
