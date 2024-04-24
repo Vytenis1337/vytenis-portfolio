@@ -44,7 +44,7 @@ const Projects = () => {
                     alt={title}
                     layout="responsive"
                     width="100%"
-                    height="75%"
+                    height="100%"
                   />
                 </div>
                 <div className="text-center my-4">
