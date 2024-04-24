@@ -1,12 +1,12 @@
-import todolist from "../public/assets/projects/TodosProject.png";
-import fetchApi from "../public/assets/projects/FetchProject.jpg";
-import portfolioProject from "../public/assets/projects/PortProject.png";
-import ecommerce from "../public/assets/projects/EcommerceProject.png";
-import usersList from "../public/assets/projects/UsersListProject.png";
-import mern from "../public/assets/projects/MernProject.png";
-import nextScrapper from "../public/assets/projects/nextScrapper.png";
-import pexelsScroll from "../public/assets/projects/pexelsScroll.png";
-import ratepunk from "../public/assets/projects/RatepunkPicture.png";
+import todolist from "../../public/assets/projects/TodosProject.png";
+import fetchApi from "../../public/assets/projects/FetchProject.jpg";
+import portfolioProject from "../../public/assets/projects/PortProject.png";
+import ecommerce from "../../public/assets/projects/EcommerceProject.png";
+import usersList from "../../public/assets/projects/UsersListProject.png";
+import mern from "../../public/assets/projects/MernProject.png";
+import nextScrapper from "../../public/assets/projects/nextScrapper.png";
+import pexelsScroll from "../../public/assets/projects/pexelsScroll.png";
+import ratepunk from "../../public/assets/projects/RatepunkPicture.png";
 
 export const projects = [
   {
