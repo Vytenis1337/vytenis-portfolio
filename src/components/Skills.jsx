@@ -20,8 +20,8 @@ const Skills = () => {
             >
               <Image
                 src={src}
-                width="100px"
-                height="100px"
+                width="55px"
+                height="55px"
                 alt={title}
                 className={`transition duration-300 ${
                   color === "white" ? "bg-white" : "bg-transparent"
