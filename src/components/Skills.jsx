@@ -23,9 +23,7 @@ const Skills = () => {
                 width="100px"
                 height="100px"
                 alt={title}
-                className={`transition duration-300 ${
-                  color === "white" ? "bg-white" : "bg-transparent"
-                } ease-in-out transform group-hover:scale-105`}
+                className={`transition duration-300  ease-in-out transform group-hover:scale-105`}
               />
               <h3 className="font-bold text-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out text-white">
                 {title}
