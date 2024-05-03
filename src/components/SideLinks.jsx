@@ -16,7 +16,7 @@ export const SideLinks = () => {
               target="_blank"
               rel="noreferrer"
               download={download}
-              className="flex justify-between items-center w-full text-white group-hover:text-yellow-400"
+              className="flex justify-between items-center w-full text-white group-hover:text-blue-400"
             >
               {text}
               {child}

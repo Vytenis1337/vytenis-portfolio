@@ -13,7 +13,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[url("../../public/assets/mainBackGround.jpg")] text-[#1f2937] tracking-wide;
+    @apply text-[#1f2937] tracking-wide;
   }
 
   h1,
@@ -40,4 +40,12 @@ html {
   button {
     @apply shadow-xl rounded-xl uppercase bg-[#fcd21d] text-white border-white border-4;
   }
+}
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .arrow {
+  transform: rotate(90deg);
 }

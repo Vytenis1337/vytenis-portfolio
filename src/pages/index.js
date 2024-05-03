@@ -6,6 +6,7 @@ import Main from "../components/Main";
 import { Navbar } from "../components/Navbar";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import Footer from "../components/Footer";
 import { SideLinks } from "../components/SideLinks";
 import { Toaster } from "sonner";
 
@@ -21,12 +22,13 @@ export default function Home() {
         <link rel="icon" href="/fav.png" />
       </Head>
       <Navbar />
-      <div className="space-y-20 lg:space-y-32">
+      <div>
         <Main />
         <About />
-        <Skills />
+        {/* <Skills /> */}
         <Projects />
         <Contact />
+        <Footer />
       </div>
       <SideLinks />
       <Toaster position="top-right" richColors />

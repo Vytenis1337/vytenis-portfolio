@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 export const navLinks = [
   { id: 1, href: "/", link: "home" },
   { id: 2, href: "#about", link: "about", scroll: false },
-  { id: 3, href: "#skills", link: "skills", scroll: false },
+  // { id: 3, href: "#skills", link: "skills", scroll: false },
   { id: 4, href: "#projects", link: "projects", scroll: false },
 
   { id: 5, href: "#contact", link: "contact", scroll: false },

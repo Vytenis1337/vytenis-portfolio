@@ -29,22 +29,19 @@ export const Navbar = () => {
     <div
       className={`fixed w-full h-20 z-[100] ease-in-out duration-300 ${
         shadow
-          ? "bg-black text-yellow-500 shadow-lg"
-          : "bg-transparent text-white"
+          ? "bg-black text-white shadow-lg"
+          : "bg-transparent text-teal-400"
       }`}
     >
-      <div className=" font-bold flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
-        <Link href="/">
-          <a className="hover:scale-105 ">
-            <FaCity size={50} />
-          </a>
-        </Link>
+      <div className="  flex justify-end md:justify-center items-center w-full h-full px-2 2xl:px-16 ">
         <div>
           <ul className="hidden md:flex">
             {navLinks.map(({ id, href, scroll, link }) => (
               <li
                 key={id}
-                className="ml-10 text-2xl uppercase hover:scale-105 hover:border-b hover:border-[#fcd21d] "
+                className={
+                  "ml-10 text-2xl uppercase hover:scale-105 hover:text-teal-400 "
+                }
               >
                 <Link href={href} scroll={scroll}>
                   {link}
