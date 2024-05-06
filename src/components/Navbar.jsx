@@ -40,7 +40,7 @@ export const Navbar = () => {
               <li
                 key={id}
                 className={
-                  "ml-10 text-2xl uppercase hover:scale-105 hover:text-teal-400 "
+                  "ml-10 text-2xl uppercase hover:scale-105 hover:text-blue-400 "
                 }
               >
                 <Link href={href} scroll={scroll}>
@@ -96,7 +96,7 @@ export const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                   download={download}
-                  className="p-3 m-2 rounded-full text-white bg-yellow-500 hover:bg-yellow-600 transition duration-300 ease-in-out"
+                  className="p-3 m-2 rounded-full text-white bg-teal-500 hover:bg-blue-600 transition duration-300 ease-in-out"
                 >
                   {child}
                 </a>
