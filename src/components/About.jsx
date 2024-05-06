@@ -26,17 +26,23 @@ const About = () => {
           About me
         </h1>
       </div>
-      <div className="flex flex-1 flex-col lg:flex-row max-w-[1240px] mx-auto">
+      <div
+        data-aos="fade-left"
+        className="flex flex-1 flex-col lg:flex-row max-w-[1240px] mx-auto"
+      >
         <div className="lg:w-1/2 p-4 text-gray-300 flex flex-col justify-center">
           <div className="mx-8 md:mx-24 text-lg lg:text-2xl leading-relaxed">
-            <div
-              className=" m-auto w-2/3 sm:w-1/2 lg:w-full md:w-80 h-80 bg-center bg-cover"
-              style={{
-                backgroundImage: 'url("My_Image2.jpg")',
-                clipPath:
-                  "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-              }}
-            ></div>
+            <div className="relative m-auto w-2/3 sm:w-1/2 lg:w-3/4 md:w-80 h-80 border-8 border-teal-400">
+              <div className="absolute inset-0 bg-black bg-opacity-75 hover:bg-opacity-0 transition-opacity duration-300 rounded-lg"></div>
+              <div
+                className="absolute inset-0 bg-center bg-cover rounded-lg"
+                style={{
+                  backgroundImage: 'url("My_Image2.jpg")',
+                  clipPath:
+                    "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+                }}
+              ></div>
+            </div>
             <p className="mt-4 text-base text-black text-justify">
               I am an enthusiastic Front-End Web Developer with a solid grasp of
               Back-End concepts. Passionate about leveraging new technologies
