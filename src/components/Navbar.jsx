@@ -27,9 +27,9 @@ export const Navbar = () => {
 
   return (
     <div
-      className={`fixed w-full h-20 z-[100] ease-in-out duration-300 ${
+      className={`fixed w-full h-20 z-[100] ease-in-out duration-300 border-b border-gray-400 backdrop-blur-lg ${
         shadow
-          ? "bg-black text-white shadow-lg"
+          ? "bg-black/75 text-white shadow-lg"
           : "bg-transparent text-teal-400"
       }`}
     >
