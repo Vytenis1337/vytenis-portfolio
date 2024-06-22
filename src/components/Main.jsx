@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-const words = ["JavaScript", "ReactJs", "NextJs", "CSS", "Responsive"]; // Add more words as needed
+const words = ["JavaScript", "ReactJs", "NextJs", "CSS", "Responsive"];
 
 const Main = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -9,7 +9,7 @@ const Main = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
-    }, 2000); // Change word every 2 seconds
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
