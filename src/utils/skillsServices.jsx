@@ -48,7 +48,7 @@ export const skills = [
     title: "NextJS",
     src: nextjs,
     color: "white",
-    level: 70,
+    level: 80,
   },
   {
     id: 6,

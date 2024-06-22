@@ -7,9 +7,12 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="w-full h-full bg-[#f5f5f5] ">
+    <div
+      id="projects"
+      className="w-full h-full max-w-screen-xl mx-auto bg-[#f5f5f5] "
+    >
       <div className="mx-auto px-10 pb-10 text-center max-w-8xl">
-        <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl capitalize text-black font-bold mblue">
+        <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl capitalize text-black font-bold underline">
           projects
         </h1>
         <div

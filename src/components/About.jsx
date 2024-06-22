@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full h-full  bg-white flex flex-col border-t-4 border-teal-400"
+      className="w-full h-full max-w-screen-xl mx-auto bg-white flex flex-col border-t-4 border-teal-400"
     >
       <div className="text-center py-4">
         <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-black underline">
@@ -51,8 +51,14 @@ const About = () => {
               <br />
               <br />
               The field of Web Development excites me as it merges creativity
-              with problem-solving. It is particularly rewarding to see
-              immediate results from tweaking styles or properties.
+              with problem-solving. My expertise includes working with HTML,
+              CSS, JavaScript, and frameworks like React and Next.js for
+              front-end development. On the back-end, I have experience with
+              Node.js, Express, and databases such as MongoDB and MySQL.
+              <br />
+              <br />I am always excited to take on new challenges and
+              collaborate with others to create innovative web applications that
+              provide excellent user experiences.
             </p>
           </div>
         </div>

@@ -17,7 +17,10 @@ const Contact = () => {
     reset();
   }
   return (
-    <div id="contact" className="w-full lg:h-max bg-white mb-24">
+    <div
+      id="contact"
+      className="w-full lg:h-max max-w-screen-xl mx-auto bg-white mb-24"
+    >
       <div className="mx-auto pt-8 lg:pt-20 text-center ">
         <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl capitalize font-bold text-black underline ">
           contacts
@@ -50,7 +53,7 @@ const Contact = () => {
           {/* form  */}
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="flex flex-col w-full md:w-1/2 lg:w-1/3 xl:w-1/4 gap-10 my-auto text-center text-transform: capitalize text-black bg-transparent border-4 p-4 shadow-lg rounded-lg mb-8"
+            className="flex flex-col w-full md:w-1/2  gap-10 mx-auto md:m-10 text-center text-transform: capitalize text-black bg-transparent border-4 p-4 shadow-lg rounded-lg "
           >
             <h1 className="text-3xl font-semibold text-black">Write Me</h1>
             <div className="flex flex-col">
