@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-const words = ["JavaScript", "ReactJs", "NextJs", "CSS", "Responsive"];
+const words = ["JavaScript", "ReactJs", "CSS", "NextJs", "Responsive"];
 
 const Main = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
