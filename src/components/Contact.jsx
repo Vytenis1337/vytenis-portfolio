@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full lg:h-max max-w-screen-xl rounded-lg shadow-lg mx-auto bg-white lg:mb-24"
+      className="w-full lg:h-max max-w-screen-xl rounded-lg shadow-lg mx-auto bg-[#f5f5f5] lg:mb-24"
     >
       <div className="mx-auto pt-8 lg:pt-20 text-center ">
         <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl capitalize font-bold text-black underline ">
