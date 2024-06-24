@@ -29,11 +29,16 @@ export const Navbar = () => {
     <div
       className={`fixed w-full h-20 z-[100] ease-in-out duration-300 border-b border-gray-400 backdrop-blur-lg ${
         shadow
-          ? "bg-black/75 text-white shadow-lg"
+          ? "bg-black/50 text-white shadow-lg"
           : "bg-transparent text-teal-400"
       }`}
     >
-      <div className="  flex justify-end md:justify-center items-center w-full h-full px-2 2xl:px-16 ">
+      <div className="  flex justify-end md:justify-between items-center w-full h-full px-2 2xl:px-16 ">
+        <div className="hidden md:block text-2xl cursor-pointer text-blue-400 hover:text-teal-400">
+          <Link href="#home" scroll={false}>
+            <FaCity size={40} />
+          </Link>
+        </div>
         <ul className="hidden md:flex">
           {navLinks.map(({ id, href, scroll, link }) => (
             <li
@@ -48,7 +53,10 @@ export const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div onClick={handleNav} className="md:hidden">
+        <div
+          onClick={handleNav}
+          className="flex opacity-100 md:opacity-0 cursor-pointer"
+        >
           <AiOutlineMenu size={40} />
         </div>
       </div>
