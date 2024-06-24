@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full h-full max-w-screen-xl mx-auto bg-white flex flex-col border-t-4 border-teal-400"
+      className="w-full h-full max-w-screen-xl rounded-lg shadow-lg mx-auto bg-white flex flex-col "
     >
       <div className="text-center py-4">
         <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-black underline">

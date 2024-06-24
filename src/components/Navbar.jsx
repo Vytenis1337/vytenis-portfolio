@@ -34,24 +34,22 @@ export const Navbar = () => {
       }`}
     >
       <div className="  flex justify-end md:justify-center items-center w-full h-full px-2 2xl:px-16 ">
-        <div>
-          <ul className="hidden md:flex">
-            {navLinks.map(({ id, href, scroll, link }) => (
-              <li
-                key={id}
-                className={
-                  "ml-10 text-2xl uppercase hover:scale-105 hover:text-blue-400 "
-                }
-              >
-                <Link href={href} scroll={scroll}>
-                  {link}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={40} />
-          </div>
+        <ul className="hidden md:flex">
+          {navLinks.map(({ id, href, scroll, link }) => (
+            <li
+              key={id}
+              className={`ml-10 text-2xl uppercase hover:scale-105  ${
+                shadow ? "hover:text-teal-400" : "hover:text-white"
+              }`}
+            >
+              <Link href={href} scroll={scroll}>
+                {link}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <div onClick={handleNav} className="md:hidden">
+          <AiOutlineMenu size={40} />
         </div>
       </div>
 

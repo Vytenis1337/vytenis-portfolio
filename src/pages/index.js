@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/fav.png" />
       </Head>
       <Navbar />
-      <div>
+      <div className="flex flex-col gap-10 ">
         <Main />
         <About />
         {/* <Skills /> */}

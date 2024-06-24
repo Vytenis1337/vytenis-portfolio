@@ -17,7 +17,7 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="bg-cover bg-center w-full h-screen max-w-screen-xl mx-auto relative overflow-hidden"
+      className="bg-cover bg-center w-full h-screen max-w-screen-xl rounded-lg shadow-lg mx-auto relative overflow-hidden"
       style={{ backgroundImage: "url('/home2.jpg')" }}
     >
       <div className="absolute inset-0 w-full h-full flex flex-col lg:mt-20 justify-center items-center bg-black/30 text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
@@ -34,13 +34,7 @@ const Main = () => {
         ))}
       </div>
       <div className="absolute inset-0 w-full h-full flex">
-        <div className="w-1/2 h-full flex items-end pb-40 xl:pb-0 xl:items-center justify-center bg-black/30 transition-colors duration-300 ease-in-out group ">
-          <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center"></div>
-        </div>
-
-        <div className="w-1/2 h-full flex items-end xl:items-center pb-40 xl:pb-0 justify-center bg-black/30 transition-colors duration-300 ease-in-out group ">
-          <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center"></div>
-        </div>
+        <div className="w-full h-full flex items-end pb-40 xl:pb-0 xl:items-center justify-center bg-black/30 transition-colors duration-300 ease-in-out group "></div>
       </div>
 
       <div className="absolute w-full h-full flex items-center justify-center pointer-events-none">

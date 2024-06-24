@@ -9,10 +9,10 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="w-full h-full max-w-screen-xl mx-auto bg-[#f5f5f5] "
+      className="w-full h-full max-w-screen-xl rounded-lg shadow-lg mx-auto bg-[#f5f5f5] "
     >
       <div className="mx-auto px-10 pb-10 text-center max-w-8xl">
-        <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl capitalize text-black font-bold underline">
+        <h1 className="font-sans pb-5 text-4xl md:text-5xl lg:text-6xl capitalize text-black font-bold underline">
           projects
         </h1>
         <div
@@ -44,7 +44,7 @@ const Projects = () => {
                   height="100%"
                   className="overflow-hidden rounded-lg shadow-lg duration-200 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center space-y-3 bg-black bg-opacity-80">
+                <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center space-y-3 bg-black bg-opacity-80 rounded-lg">
                   <h2 className="text-2xl font-bold my-4 text-white">
                     {title}
                   </h2>
